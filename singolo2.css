@@ -105,6 +105,7 @@ body {
     font-size: 18px;
     font-weight: 900;
     margin-top: 16px;
+    word-wrap: break-word;
 }
 
 .user-description {
@@ -120,4 +121,10 @@ body {
 
 .social-networks__item:not(:last-child) {
     margin-right: 5px;
+}
+
+.social-networks__item:hover  {
+    border-radius: 20px;
+    background-color: #b1a0a0;
+    cursor: pointer;
 }
