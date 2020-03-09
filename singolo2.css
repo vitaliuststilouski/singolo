@@ -1,0 +1,123 @@
+body {
+    background-color: #2d303a;
+    font-family: 'Lato';
+    color: #767e9e;
+}
+
+.container {
+    width: 940px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.header {
+
+    padding: 64px 40px 20px 40px;
+}
+
+.header__title {
+    font-size: 30px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+.header__sentence {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 26px;
+}
+
+.list {
+    padding-top: 18px;
+    display: inline-block;
+}
+
+.list__item {
+    display: inline-block;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    padding: 2px 7px;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.list__link {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #767e9e;
+}
+
+.list__link:hover {
+    color: #dedede;
+    cursor: pointer;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 53px;
+}
+
+.picture:not(:nth-child(4n)) {
+    margin-right: 20px;
+}
+
+.picture {
+    margin-bottom: 20px;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+}
+
+.about-us__container {
+    width: 1020px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 63px 40px;
+    box-sizing: border-box;
+}
+
+.about-us__title {
+    font-size: 30px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+.about-us__performance {
+    padding-top: 17px;
+    line-height: 2em;
+}
+
+.profiles {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+
+.avatar {
+    max-width: 300px;
+    width: 100%;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.user-description {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+    line-height: 1.9em;
+}
+
+.social-networks {
+    margin-top: 22px;
+}
+
+.social-networks__item:not(:last-child) {
+    margin-right: 5px;
+}
