@@ -1,2 +1,2 @@
 # singolo
-https://vitaliuststilouski.github.io/singolo
+https://vitaliuststilouski.github.io/singolo/
