@@ -10,29 +10,28 @@ body {
     margin: 0px auto;
 }
 
-.header {
-
-    padding: 64px 40px 20px 40px;
+.portfolio {
+    padding: 64px 0 54px 0;
 }
 
-.header__title {
+.portfolio__title {
     font-size: 30px;
     color: #666d89;
     font-weight: 900;
 }
 
-.header__sentence {
+.portfolio__sentence {
     font-size: 18px;
     font-weight: 400;
     padding-top: 26px;
 }
 
-.list {
+.portfolio__list {
     padding-top: 18px;
     display: inline-block;
 }
 
-.list__item {
+.portfolio__list-item {
     display: inline-block;
     border: 1px solid #767e9e;
     border-radius: 5px;
@@ -41,22 +40,22 @@ body {
     vertical-align: text-top;
 }
 
-.list__link {
+.portfolio__list-link {
     font-size: 12px;
     text-decoration: none;
     font-weight: 400;
     color: #767e9e;
 }
 
-.list__link:hover {
+.portfolio__list-link:hover {
     color: #dedede;
     cursor: pointer;
 }
 
 .pictures {
+    padding-top: 18px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 53px;
 }
 
 .picture:not(:nth-child(4n)) {
