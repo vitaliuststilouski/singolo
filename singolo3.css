@@ -129,20 +129,4 @@ textarea[name=textarea]:focus {
     background: url(./assets/mail.png) no-repeat;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #2d303a;
-    padding: 22px 40px;
-}
-
-.coyright {
-    font-size: 12px;
-    font-weight: 400;
-    color: #666d89;
-}
-
-.footer .social-networks__item:not(:last-child) {
-    margin-right: 5px;
-}
+.footer {}
