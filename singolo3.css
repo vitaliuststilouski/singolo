@@ -1,0 +1,132 @@
+body {
+    color: #f0d8d9;
+    font-family: 'Lato', serif;
+}
+
+
+.quote-block {
+    background-color: #f06c64;
+    padding: 44px 40px 69px 40px;
+}
+
+.container {
+    width: 940px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.quote-block__title {
+    padding-top: 18px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.quote-block__description {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form {
+    display: flex;
+    padding-top: 49px;
+}
+
+.form__details {
+    max-width: 620px;
+    margin-right: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 12px 14px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 6px;
+    color: #f0d8d9;
+}
+
+input[name=email] {
+    margin-top: 16px;
+}
+
+input[name=subject] {
+    margin-top: 17px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #f48c8f;
+    font-size: 12px;
+}
+
+textarea[name=textarea] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 16px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 11px;
+    color: #f48c8f;
+    resize: none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea[name=textarea]:focus {
+    box-shadow: 10px 10px 10px #555;
+}
+
+.informaion {
+    max-width: 303px;
+}
+
+.informaion__title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.informaion__description {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.address {
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.address__item {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+
+.address__item:before {
+    content: ' ';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.location {
+    background: url(./assets/location.png) no-repeat;
+}
+
+.phone {
+    background: url(./assets/phone.png) no-repeat;
+}
+
+.mail {
+    margin-top: 3px;
+    background: url(./assets/mail.png) no-repeat;
+}
+
+.footer {}
